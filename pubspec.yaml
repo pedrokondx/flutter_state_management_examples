@@ -31,17 +31,22 @@ dependencies:
   flutter:
     sdk: flutter
 
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.8
+  # For using BLoC  
   flutter_bloc: ^8.1.6
-  mobx: ^2.4.0
-  riverpod: ^2.6.1
-  provider: ^6.1.2
-  get: ^4.6.6
   equatable: ^2.0.7
+
+  # For using MobX
+  mobx: ^2.4.0
   flutter_mobx: ^2.2.1+1
+
+  # For using Provider
+  provider: ^6.1.2
+
+  # For using GetX
+  get: ^4.6.6
+
+  # For using Riverpod
+  riverpod: ^2.6.1
   flutter_riverpod: ^2.6.1
 
 dev_dependencies:
@@ -54,6 +59,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
+  
+  # For using MobX code generation
   build_runner: ^2.4.13
   mobx_codegen: ^2.6.2
 
